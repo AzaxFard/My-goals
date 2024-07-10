@@ -18,6 +18,7 @@
     font-size: 16px;
     color: #0D1321;
     text-align: center;
+    margin-bottom: 48px;
 }
 .btn-2{
     margin-top:5px;
@@ -135,4 +136,24 @@ main{
 }
 .why-card3-col2{
     width: 30%;
+}
+
+
+/* Inspiration section styles */
+.Inspiration{
+    display: flex;
+    flex-direction: column;
+    margin: 80px 150px;
+}
+.video-container{
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+    border-color: rgb(128, 128, 128, .20);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 16px;
+}
+.vid-1{
+    border-radius: 3%;
 }
