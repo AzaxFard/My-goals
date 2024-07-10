@@ -7,6 +7,39 @@
 }
 
 
+/* shared styles */
+.section-title{
+    font-weight: 800;
+    font-size: 32px;
+    color: #0D1321;
+    text-align: center;
+}
+.section-desc{
+    font-size: 16px;
+    color: #0D1321;
+    text-align: center;
+}
+.btn-2{
+    margin-top:5px;
+    padding: 12px 20px;
+    color: #0D1321;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600px;
+    border-color: grey;
+    width: 35%;
+}
+.why-card-title{
+    font-weight: 700;
+    color: #0D1321;
+    font-size: 24px;
+}
+.why-card-desc{
+    font-weight: 400;
+    color: #0D1321;
+    font-size: 16px;
+}
+
 /* banner styles */
 .banner{
     background-image: url("../assets/Hero-bg.png");
@@ -20,13 +53,86 @@
     align-items: center;
     text-align: center;
 }
+.banner-title{
+    color: #0D1321;
+    font-size: 48px;
+    font-weight: 800;
+}
+.banner-desc{
+    color: #0D1321;
+    font-size: 16px;
+}
 .btn-1{
+    margin-top: 32px;
     border-radius: 8px;
     padding: 21px 24px;
     background-color: #0D1321;
     color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600px;
 }
 .dev-logo{
     height: 240px;
     width: 240px;
+}
+
+
+/* main styles */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+/* why section styles */
+.why{
+    background-color: rgba(13, 19, 33, 0.02);
+    border-color: gray;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 16px;
+    margin: 80px 150px;
+    padding: 80px 100px;
+}
+.why-cards{
+    display: flex;
+    flex-direction: column;
+}
+.why-card1{
+    padding: 48px;
+    display: flex;
+    justify-content: space-between; 
+    background-color: #FFFFFF;
+    margin-bottom: 32px; 
+}
+.why-card2{
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    margin-bottom: 32px; 
+}
+.why-card3{
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+}
+.why-card1-col1{
+    width: 60%;
+}
+.why-card1-col2{
+    width: 30%;
+}
+.why-card2-col1{
+    width: 30%;
+}
+.why-card2-col2{
+    width: 60%;
+}
+.why-card3-col1{
+    width: 60%;
+}
+.why-card3-col2{
+    width: 30%;
 }
