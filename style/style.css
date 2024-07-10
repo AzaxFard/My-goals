@@ -40,6 +40,10 @@
     color: #0D1321;
     font-size: 16px;
 }
+.anch-1{
+    color:#0D1321;
+}
+
 
 /* banner styles */
 .banner{
@@ -156,4 +160,32 @@ main{
 }
 .vid-1{
     border-radius: 3%;
+}
+
+
+/* Target section styles */
+.Target{
+    display: flex;
+    flex-direction: column;
+    margin: 80px 150px;
+}
+.target-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.target-card1{
+    border-radius: 16px ;
+    padding: 40px;
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.target-card2{
+    border-radius: 16px ;
+    padding: 40px;
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.target-card3{
+    border-radius: 16px ;
+    padding: 40px;
+    background-color: rgba(255, 223, 0, 0.05);
 }
